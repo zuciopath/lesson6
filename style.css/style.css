@@ -1,0 +1,40 @@
+    .full-size{
+    	width: 1366px;
+    	height: 780px;
+    }
+    .mother-div { 
+     max-width: 1286px;
+    max-height: 700px;
+	background-color: #56836F;
+	border: solid 4px #145A32;
+}
+.container{
+	width: 517px;
+	height: 356px;
+	background-color: #FCEE21;
+	display: inline-block;
+	margin-left: 18px;
+    }
+.container img{
+	width: 151.71px;
+}
+.container p{
+	font-size: 14px;
+	color: #006837;
+	display: inline-block;
+}
+.main{
+	display: inline-block;
+	color: #FFFFFF;
+	font-size: 48px;
+	margin-left: 50px;
+}
+.logo{
+	display: inline-block;
+}
+.nav{
+	display: inline-block;
+}
+.allcontainer{
+	margin-left: 110px;
+}
