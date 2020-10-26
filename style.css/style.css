@@ -1,40 +1,96 @@
     .full-size{
-    	width: 1366px;
-    	height: 780px;
+    	max-width: 1366px;
+    	width: 100%;
     }
     .mother-div { 
      max-width: 1286px;
     max-height: 700px;
+    margin: 40px auto;
 	background-color: #56836F;
 	border: solid 4px #145A32;
 }
-.container{
+.container1{
 	width: 517px;
 	height: 356px;
 	background-color: #FCEE21;
-	display: inline-block;
-	margin-left: 18px;
+	margin-right: 103px;
+	margin-top: 63px;
+	margin-bottom: 70px;
+	float: left;
     }
-.container img{
+.container1 img{
 	width: 151.71px;
 }
-.container p{
+.container1 p{
 	font-size: 14px;
 	color: #006837;
-	display: inline-block;
+	margin-top: 18px;
+	margin-left: 32px;
+	margin-right: 20px;
+	margin-bottom: 32px;
 }
 .main{
 	display: inline-block;
 	color: #FFFFFF;
 	font-size: 48px;
 	margin-left: 50px;
+
 }
 .logo{
 	display: inline-block;
-}
+	max-width: 201px;
+	float: right;
+    width:  100%;
+	vertical-align: top;
+} 
+
 .nav{
 	display: inline-block;
+	vertical-align: top;
+	float: right;
+	margin-right: 10px;
 }
 .allcontainer{
 	margin-left: 110px;
+}
+.clear{
+	clear: both;
+}
+.img{
+	float: right;
+	margin-top: 18px;
+	margin-right: 32px;
+	margin-bottom: 32px;
+	padding-left: 45px;
+}
+.img2{
+	float: left;
+	margin-top: 18px;
+	margin-left: 32px;
+	margin-bottom: 32px;
+	padding-right: 45px;
+}
+.header-container{
+	margin-top: 60px;
+	margin-right: 44px;
+}
+.container2{
+	width: 517px;
+	height: 356px;
+	background-color: #FCEE21;
+	margin-left: 18px;
+	margin-top: 63px;
+	margin-bottom: 70px;
+	float: right;
+    }
+    .container2 img{
+	width: 151.71px;
+}
+.container2 p{
+	font-size: 14px;
+	color: #006837;
+	margin-top: 18px;
+	margin-left: 32px;
+	margin-right: 20px;
+	margin-bottom: 32px;
 }
